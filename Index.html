@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+
+
+    <div class="navbar">
+        <img src="https://cdn-icons-png.flaticon.com/512/3845/3845731.png" alt="Weather App Logo" height="35px" >
+         <form>
+          <input id="text" type="text" placeholder="Enter City Name">
+          <button type="submit" id="submit">Search</button>
+        </form>
+      </div>
+      
+    
+    <div class="main">
+        <div id="container">
+            <p id="temp">Current Temperature:</p>
+            <br>
+            <p id="max-temp">Max Temperature:</p><br>
+            <p id="min-temp">Min Temperature :</p><br>
+            <p id="wind">Wind  :</p><br>
+            <p id="clouds">Clouds  :</p><br>
+            <p id="sunrise">Sunrise:</p><br>
+            <p id="sunset">Sunset  :</p>
+        </div>
+        
+        <iframe
+            width="550"
+            height="450"
+            style="border:0"
+            loading="lazy"
+            src="https://www.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        ></iframe>
+    </div>
+    <div class="forecast-container">
+        
+    </div>
+
+
+    <div class="last">
+    
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
